@@ -85,9 +85,9 @@ export const skillsSection: SkillsSectionType = {
     {
       id: getId(),
       title: 'data analysis & visualization',
-      lottie: {
-        light: '/lotties/frontend.json',
-        dark: '/lotties/frontend-dark.json',
+      image: {
+        light: '/images/data-analytics-light.svg',
+        dark: '/images/data-analytics-dark.svg',
       },
       points: [
         'Analyzing trends and patterns using SQL and Python',
@@ -104,9 +104,9 @@ export const skillsSection: SkillsSectionType = {
     {
       id: getId(),
       title: 'data engineering workflows',
-      lottie: {
-        light: '/lotties/ethereum.json',
-        dark: '/lotties/ethereum-dark.json',
+      image: {
+        light: '/images/data-engineering-light.svg',
+        dark: '/images/data-engineering-dark.svg',
       },
       points: [
         'Creating data pipelines with dbt and Airflow',

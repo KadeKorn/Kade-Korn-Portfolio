@@ -36,15 +36,15 @@ export interface AboutSectionType extends Section {
   img: string;
 }
 
-type SkillType = {
+export type SkillType = {
   id: string;
   title: string;
-  lottie: {
+  points: string[];
+  softwareSkills: { name: string; icon: string }[];
+  image?: {
     light: string;
     dark: string;
   };
-  points: string[];
-  softwareSkills: SoftwareSkillType[];
 };
 
 export interface SkillsSectionType extends Section {
