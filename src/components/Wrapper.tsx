@@ -17,13 +17,11 @@ const Wrapper = ({
   animate = true,
   ...rest
 }: Props & MotionProps) => {
-  const baseClasses =
-    'min-h-screen flex flex-col justify-center py-24 md:py-32';
-
   if (animate) {
     const MotionTag = motion(as);
+
     return (
-      <MotionTag id={id} className={`${baseClasses} ${className}`} {...rest}>
+      <MotionTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
         {children}
       </MotionTag>
     );
@@ -33,7 +31,7 @@ const Wrapper = ({
     return (
       <motion.section
         id={id}
-        className={`${baseClasses} ${className}`}
+        className={`py-24 md:py-32 ${className}`}
         {...rest}
       >
         {children}
@@ -44,7 +42,7 @@ const Wrapper = ({
   const CustomTag = `${as}` as ElementType;
 
   return (
-    <CustomTag id={id} className={`${baseClasses} ${className}`} {...rest}>
+    <CustomTag id={id} className={`py-24 md:py-32 ${className}`} {...rest}>
       {children}
     </CustomTag>
   );
