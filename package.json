@@ -8,7 +8,6 @@
     "lint": "prettier --write ."
   },
   "dependencies": {
-    "@lottiefiles/react-lottie-player": "^3.5.0",
     "framer-motion": "^9.0.3",
     "next": "latest",
     "nodemon": "^2.0.22",

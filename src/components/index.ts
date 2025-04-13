@@ -6,7 +6,6 @@ import ListItem from './ListItem';
 import NavButton from './NavButton';
 import ProjectCard from './ProjectCard';
 import SEO from './SEO';
-import ShowLottie from './ShowLottie';
 import Sidebar from './Sidebar';
 import Skill from './Skill';
 import SkillIcon from './SkillIcon';
@@ -18,7 +17,6 @@ import Wrapper from './Wrapper';
 export {
   Button,
   NavButton,
-  ShowLottie,
   SkillIcon,
   ListItem,
   HeroImage,
